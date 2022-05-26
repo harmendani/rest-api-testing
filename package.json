@@ -1,0 +1,29 @@
+{
+  "name": "rest-api-testing",
+  "version": "1.0.0",
+  "description": "Simple API implements the api testings over HTTP Rest using an free radio library",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha \"tests/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harmendani/rest-api-testing.git"
+  },
+  "keywords": [
+    "supertest",
+    "rest assured",
+    "mocha",
+    "api"
+  ],
+  "author": "Pedro Harmendani <harmendani26@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harmendani/rest-api-testing/issues"
+  },
+  "homepage": "https://github.com/harmendani/rest-api-testing#readme",
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "supertest": "^6.2.3"
+  }
+}
